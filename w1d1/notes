@@ -1,0 +1,42 @@
+application-c60bded….js:60 test3
+19:58:04.251 undefined
+19:58:04.251 var password = 'test'   
+if (password[1] === "e")
+    {
+      password = password[1].replace("e", "3");
+    }
+console.log(password)
+19:58:28.313 application-c60bded….js:60 3
+19:58:28.313 undefined
+19:58:28.313 var password = 'test'   
+if (password[1] === "e")
+    {
+      password = password.replace("e", "3");
+    }
+console.log(password)
+20:01:27.834 application-c60bded….js:60 t3st
+20:01:27.834 undefined
+20:01:27.834 var password = 'test'   
+if (password[1] === "e")
+    {
+      password = password.replace("t", "3");
+    }
+console.log(password)
+20:01:46.010 application-c60bded….js:60 3est
+20:01:46.010 undefined
+20:01:46.010 "sakdjhaskjdhqiwueyhkjxc".split()
+20:01:46.010 ["sakdjhaskjdhqiwueyhkjxc"]
+20:01:46.010 "sakdjhaskjdhqiwueyhkjxc".split("")
+20:01:46.010 (23) ["s", "a", "k", "d", "j", "h", "a", "s", "k", "j", "d", "h", "q", "i", "w", "u", "e", "y", "h", "k", "j", "x", "c"]
+20:01:46.010 var split = "test".split()
+20:01:46.010 undefined
+20:01:46.010 var split = "test".split("")
+20:01:46.010 undefined
+20:01:46.010 split
+20:01:46.010 (4) ["t", "e", "s", "t"]
+20:01:46.010 split[1]= 3
+20:01:46.010 3
+20:01:46.010 split
+20:01:46.010 (4) ["t", 3, "s", "t"]
+20:01:46.010 split.join("")
+20:01:46.010 "t3st"
