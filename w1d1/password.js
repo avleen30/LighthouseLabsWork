@@ -28,5 +28,3 @@ function obfuscate(password)
   return split.join("");
 
 }
-
-console.log(encryptingPasswords(split));
